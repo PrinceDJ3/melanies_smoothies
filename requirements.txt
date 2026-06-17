@@ -1,0 +1,9 @@
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    main_file: Smoothie.py
+    artifacts:
+      - pyproject.toml
+      - Smoothie.py
+      - .streamlit/config.toml
