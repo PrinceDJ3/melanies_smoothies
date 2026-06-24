@@ -47,7 +47,7 @@ if ingredients_list:
 
 
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")  
-st.text(smoothiefroot_response)
+st.text(smoothiefroot_response.json())
     
     # if ingredients_string:
     #     session.sql(my_insert_stmt).collect()
